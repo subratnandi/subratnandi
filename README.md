@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @subratnandi
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include<stdio.h>
+Main () 
+{
+int a, b, sum;
+printf("Enter two number - ") ;
+scanf("%d %d,&a,&b);
+sum=a+b;
+printf("the sum of a and b = %d",sum);
+return 0;
 
-<!---
-subratnandi/subratnandi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+}
